@@ -8,5 +8,3 @@ paper.pdf: paper.dvi
 
 clean:
 	rm -f *.pdf *.log *.aux *.dvi
-
-.PHONY: pdf
