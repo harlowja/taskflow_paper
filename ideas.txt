@@ -3,6 +3,7 @@ Ideas:
 - What is taskflow (overview)
 - How does it relate to distribute system robustness?
 - Dive into analysis as how it relates to CAP theory (or consistency models?)
+- The cloud, mention the cloud!
 
 Inner workings:
 
