@@ -2,24 +2,34 @@
 
 \usepackage{graphicx}
 \usepackage{authblk}
+\usepackage{hyperref}
 
 \begin{document}
 
 \title{TaskFlow: robust, resumable, reliable, composable distributed graph
        execution, made for clouds, made for humans.}
 
-\author[1]{Joshua Harlow\thanks{harlowja@yahoo-inc.com}}
-\author[2]{Min Pae\thanks{min.pae@hp.com}}
+\date{\today}
+
+\author[1]{Joshua Harlow}
+\author[2]{Min Pae}
 \affil[1]{Cloud Platform Group, Yahoo!}
 \affil[2]{Cue Team, HP}
-
-\date{\today}
 
 \maketitle
 
 \begin{abstract}
 
-Blah blah blah
+Scalability and reliability in distributed systems is a \emph{hard problem}.
+\href{http://docs.openstack.org/developer/taskflow/}{TaskFlow} provides
+a framework for implementing workflows with specific provisions for scalability
+and reliability. Using taskflow, cue, cinder, glance, octavia, magnum,
+mirantis pumphouse, rackspace cloud big data, and other projects inside (and
+outside) of \href{http://www.openstack.org/}{OpenStack} are tackling issues of
+scalability and reliability in a consistent and unified way. By exploring
+the concepts taskflow is based on we will show how it was designed, its
+components and how it helps make building cloud platforms (and cloud
+applications) that much easier to \emph{just get right}.
 
 \end{abstract}
 
